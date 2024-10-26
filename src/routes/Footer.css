@@ -1,0 +1,78 @@
+.footer {
+    background-color: #000; /* Black background */
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    color: #fff; /* White text color */
+}
+
+.footer-top {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer-input {
+    padding: 15px;
+    margin-right: 10px;
+    width: 60%;
+    max-width: 300px;
+    font-size: 16px; /* Increased text size */
+}
+
+.footer-button {
+    padding: 15px 25px;
+    background-color: #fff; /* White button */
+    color: #000; /* Black text on button */
+    border: none;
+    cursor: pointer;
+    font-size: 16px; /* Increased text size */
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 20px;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 20px; /* Increased text size */
+    color: #fff; /* White text color */
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section li {
+    margin: 10px 0;
+    font-size: 16px; /* Increased text size */
+    color: #ccc; /* Light grey text color */
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li a {
+    color: #ccc; /* Light grey link color */
+    text-decoration: none;
+    font-size: 16px; /* Increased text size */
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+    color: #fff; /* White on hover */
+}
+
+.footer-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+}

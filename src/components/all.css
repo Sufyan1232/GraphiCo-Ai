@@ -1,0 +1,227 @@
+.bat{
+    background-color:#00a9ff;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: 1 column;
+    width: 100%;
+    height: 357.5px;
+}
+.bleft{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.batimg{
+    margin-top: -75px;
+}
+.h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+
+}
+.h3{
+    width: 70%;
+    margin-top: 20px;
+}
+.batbtn{
+    width: 250px;
+    height: 60px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    color: white;
+}
+
+
+.allfea{
+    width: 100%;
+    height: 500px;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: 1 column;
+}
+.fea1{
+    width: 50%;
+    margin-top: 50px;
+
+}
+
+.feaimg{
+    width: 450px;
+    margin-left: 50px;
+    
+}
+
+.featext{
+    font-size: 25px;
+}
+
+.faeh1{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+}
+
+.slider {
+    background-color: white;
+    margin: 100px 100px;
+    padding: 20px; /* Add padding for better spacing inside the box */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shaded effect */
+    padding: 50px 10px;
+}
+
+/* Optional: Hover effect for interactivity */
+.slider:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Slightly deeper shadow on hover */
+}
+
+
+.custom-slider {
+    width: 90%;
+    margin: auto;
+    
+  }
+  
+  .slide-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+   
+    margin-bottom: 50px;
+    
+  }
+  
+  .text-content {
+    flex: 1;
+    padding: 0px;
+    margin-right: 70px;
+    
+  }
+  
+  .image-content {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .image-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    font-size: 34px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  
+  li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 250px;
+    height: 50px;
+    font-size: 16px;
+    background-color: #dd00ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+
+
+
+  .container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .inputs {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #018e99;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #016f7a;
+  }
+  
+  .images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 images per row */
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .image-item {
+    perspective: 1000px; /* Enables 3D effect */
+  }
+  
+  .image-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
+  }
+  
+  .image-item img:hover {
+    transform: rotateY(30deg) scale(1.0); /* 3D-like rotation and scaling */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Adds shadow for depth */
+  }
+  
+
+.inspi{
+  font-weight: bold;
+  font-family: cursive;
+  color: black;
+  margin-top: 100px;
+}

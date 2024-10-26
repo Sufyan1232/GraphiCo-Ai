@@ -1,0 +1,240 @@
+.you{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: 1 column;
+    margin: 50px;
+}
+.lyou{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(128, 15, 203);
+    padding-left: 100px;
+    padding-top: 25px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.ryou{
+    width: 60%;
+    height: 100%;
+   
+    padding: 20px 50px;
+}
+.videos{
+    width: 270px;
+    border-radius: 5px;
+    padding-left: 20px;
+    border: 2px solid black;
+    height: 40px;
+    margin: 5px;
+    margin-left: 10px;
+}
+.subscribers{
+    width: 270px;
+    border-radius: 5px;
+    padding-left: 20px;
+    border: 2px solid black;
+    height: 40px;
+    margin: 5px;
+    margin-left: 10px;
+}
+.cname{
+    width: 600px;
+    border-radius: 5px;
+    padding-left: 20px;
+    border: 2px solid black;
+    height: 40px;
+    margin: 10px;
+}
+.file{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.youimg{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px 10px;
+    align-self: center;
+    background-color: #f4f4f4;
+ 
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+.pmain {
+  display: flex;
+  margin: 20px;
+}
+/* Sidebar Styling */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-right: 2px solid #e0e0e0;
+}
+
+.calendar-container, .chart-container {
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Calendar Styling */
+.react-calendar {
+  width: 100%;
+  max-width: 100%;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.react-calendar__tile {
+  padding: 10px;
+  background: #f4f4f4;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+
+.react-calendar__tile--active {
+  background: #007bff;
+  color: white;
+}
+
+.react-calendar__tile--now {
+  background: #ffcc00;
+  color: white;
+}
+
+.react-calendar__tile--active:hover {
+  background: #0056b3;
+}
+
+.react-calendar__tile:hover {
+  background: #e0e0e0;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  color: #d9534f;
+}
+
+.react-calendar__navigation button {
+  color: #333;
+  font-weight: bold;
+  background: #f4f4f4;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.react-calendar__navigation button:hover {
+  background: #007bff;
+  color: white;
+}
+
+/* Chart Styling */
+.chart-container {
+  position: relative;
+  margin: auto;
+  height: 400px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.chart-title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+canvas {
+  width: 100% !important;
+  height: auto !important;
+}
+
+/* Loading GIF */
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loading-gif {
+  width: 50px;
+  height: 50px;
+}
+
+/* Product List */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background-color: #5400b3;
+  border-radius: 10px;
+  margin: 0px 10px
+}
+.myproduct{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background-color: #5400b3;
+  border-radius: 10px;
+  margin: 0px 10px
+}
+.myproduct p{
+  font-family: cursive;
+  margin-bottom: 2px;
+}
+
+.product-item {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: calc(35.333% - 40px);
+  width:280px;
+  text-align: center;
+}
+
+.product-image {
+  width: 100%;
+  height: 180px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.price {
+  color: #d9534f;
+  font-weight: bold;
+}
+h3{
+  font-weight: bold;
+  font-size: 25px;
+}
+button {
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+  width: 90%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5400b3;
+}

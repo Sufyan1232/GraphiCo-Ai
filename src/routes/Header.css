@@ -1,0 +1,68 @@
+.navbar{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 100px;
+    background-color: rgb(213, 213, 213);
+    
+}
+.topbar{
+    width: 100%;
+    background-color: black;
+}
+.logo{
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: 170px;
+    color: rgb(0, 0, 0);
+}
+.logo:hover{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 170px;
+    color: rgb(0, 0, 0);
+}
+.blogo{
+    width: 90px;
+}
+.newNav{
+    width: 550px;
+}
+.lastitem{
+    margin-left: 880px;
+    color: white;
+}
+.navlink .dropdown-toggle {
+    color: white; /* Change this to your desired color */
+  }
+  .navlink .dropdown-toggle:hover {
+    color: white; /* Change this to your desired color */
+  }
+.navcenter{
+    
+}
+.navlink{
+    color: rgb(0, 0, 0);
+    margin-right: 30px;
+}
+.navlink:hover{
+    color: rgb(0, 0, 0);
+    margin-right: 30px;
+}
+
+.signin{
+    width: 130px;
+    height: 40px;
+    background-color: rgb(136, 0, 255);
+    border: 1px solid yellow;
+    margin-top: 7px;
+   
+}
+.search{
+    width: 200px;
+    height: 40px;
+    background-color: #fff;
+    margin-top: 7px;
+}

@@ -1,0 +1,48 @@
+.main{
+    background-color: black;
+}
+.aiContainer{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* background-color: #a320f5; */
+    /* background-color: #bfbec0; */
+    background: url("https://cdn.dribbble.com/userupload/14245577/file/original-5c240230005ab15413cfcb364558ec69.png?resize=1200x900");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.head{
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.aiImage{
+    width: 95%;
+    height: auto;
+    background-color: rgb(15, 13, 13);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+    grid-template-rows: auto; /* Adjusts row height based on content */
+    gap: 20px;
+    margin-top: -50px;
+    padding: 50px 30px;
+}
+
+.searchImage{
+    width: 95%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+    grid-template-rows: auto; /* Adjusts row height based on content */
+    gap: 20px;
+    margin-top: -50px;
+    padding: 50px 30px;
+    margin-left: 40px;
+}
